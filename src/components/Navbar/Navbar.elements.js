@@ -79,7 +79,7 @@ export const NavItem = styled.li`
   }
 
   @media screen and (max-width: 960px) {
-    width: 100%auto;
+    width: 100%;
 
     &:hover {
       border: none;
