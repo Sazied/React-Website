@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { FaMagento } from "react-icons/fa";
 import { Container } from "../../globalStyles";
 
+
+
 export const Nav = styled.nav`
   background: #101522;
   height: 80px;
@@ -32,8 +34,12 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaMagento)`
-  margin-right: 0.5rem;
+export const NavIcon = styled.img`
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+  margin-right: 1rem;
 `;
 
 export const MobileIcon = styled.div`
@@ -98,7 +104,7 @@ export const NavLinks = styled(Link)`
   @media screen and (max-width: 960px) {
     text-align: center;
     padding: 2rem;
-    width: 100%100%;
+    width: 100%;
     display: table;
 
     &:hover {
